@@ -16,21 +16,19 @@ Una aplicación que encripta y desencripta textos utilizando un conjunto especí
 
 ## Demo
 
-Puedes ver el funcionamiento del proyecto visitando la siguiente URL: [Enlace a la Demo](http://tu-enlace-a-la-demo.com)
+Puedes ver el funcionamiento del proyecto visitando la siguiente URL: [Enlace a la Demo](https://victorwcv.github.io/encriptador-de-texto/)
 
 En esta demo, podrás:
 - Encriptar textos ingresando palabras en el campo de texto y seleccionando la opción de encriptar.
 - Desencriptar textos ingresando palabras encriptadas en el campo de texto y seleccionando la opción de desencriptar.
 - Copiar el texto encriptado/desencriptado al portapapeles con un solo clic.
 
-¡Prueba la demo y explora cómo funciona nuestra aplicación de encriptación de textos!
-
 
 ## Instalación
 
 1. Clona este repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/proyecto-encriptacion.git
+    git clone https://github.com/victorwcv/encriptador-de-texto
     ```
 2. Navega al directorio del proyecto:
     ```sh
