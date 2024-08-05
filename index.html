@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main-container">
+    <main class="main-container">
       <div class="logo-container">
         <img src="./images/Logo.png" alt="logo alura" class="logo" />
         <span>+</span>
@@ -41,24 +41,25 @@
           </small>
           <div class="buttons">
             <button id="encriptarBtn" class="encriptar">Encriptar</button>
-            <button id="desencriptarBtn" class="desencriptar">Desencriptar</button>
+            <button id="desencriptarBtn" class="desencriptar">
+              Desencriptar
+            </button>
           </div>
         </div>
       </div>
       <div class="result-container">
-        <div class="no-result">
+        <div class="no-result" id="noResult">
           <img src="./images/personaje.png" alt="personaje" />
           <h3>Ningun mensaje fue encontrado</h3>
           <p>Ingresa el texto que desees encriptar o desencriptar</p>
         </div>
-        <div class="result-text">
-          <textarea
-            id="textoEncriptado"
-            readonly
-          ></textarea>
-          <button id="copiar">Copiar</button>
+        <div class="result-text" id="resultText">
+          <textarea id="textoEncriptado" readonly></textarea>
+          <button id="copiarBtn">Copiar</button>
         </div>
       </div>
-    </div>
+    </main>
+    <footer>Creado por Victor Ccanchi - 2024</footer>
+    <script src="script.js"></script>
   </body>
 </html>
