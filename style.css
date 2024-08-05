@@ -21,9 +21,6 @@
   --gray-300: #868e96;
   --gray-400: #495057;
   --gray-500: #343a40;
-
-  /* Personal colors */
-
 }
 
 * {
@@ -85,7 +82,6 @@ textarea::placeholder {
 }
 
 .main-container .logo-container {
-  /* position: absolute; */
   align-self: flex-start;
   display: flex;
   align-items: center;
@@ -158,7 +154,6 @@ textarea::placeholder {
 
 .main-container .result-container {
   flex: 1;
-  /* padding: 3.2rem; */
   display: flex;
   background-color: white;
   border-radius: 3.2rem;
@@ -167,7 +162,6 @@ textarea::placeholder {
 }
 
 .main-container .result-container .no-result {
-  /* padding: 4rem; */
   font-size: 2.4rem;
   font-weight: 400;
   height: 100%;
